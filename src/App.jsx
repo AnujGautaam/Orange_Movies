@@ -132,7 +132,7 @@ try {
 
     Find <span className='text-gradient-one'>Best Movies</span> on one go
   </h2>
-  <img src='../public/hero-img.png' alt='' style={{height:"420px"}}/>
+  <img src='/hero-img.png' alt='' style={{height:"420px"}}/>
 
   {/* in this section, i will try to include the things i have downloaded from the figma that he has provided */}
   {/* <p className='text-amber-50'>Search</p> */}
