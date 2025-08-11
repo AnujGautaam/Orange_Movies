@@ -118,7 +118,7 @@ try {
 
   // here empty array signifies that every time the screen refreshes or rerenders, the effects called inside the function get executed 
   return (
-    <main className="bg-[url(../public/BG.png)]">
+    <main className="bg-[url(/BG.png)]">
       {/* so this is how it is done using figma, tailwind and react js */}
       <div className='pattern'/>
       <div className='wrapper'>
