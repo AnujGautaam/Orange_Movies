@@ -9,7 +9,7 @@ const Search = ({searchVariable, setSearchVariable}) => {
   return (
     <div className="text-white text-3xl search">
     <div className=''>
-        <img src='../public/search.png' alt='search-components'/>
+        <img src='/search.png' alt='search-components'/>
         
         <input 
         type='text'
