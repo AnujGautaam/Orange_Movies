@@ -13,7 +13,7 @@ const MovieCard = ({data}) => {
         </h6>
 <div className='content'>
     <img src='/Rating.png' style={{height:"30px", width:"30px"}}/>
-    <h3>{data.vote_average}</h3> 
+    <h3>{data.vote_average.toFixed(1)}</h3> 
     <span className='text-5xl mb-6'>.</span>
     <h3 className='language'>{data.original_language}</h3>
     <span className='text-5xl mb-6'>.</span>
